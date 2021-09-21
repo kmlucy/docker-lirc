@@ -7,7 +7,7 @@ docker run -d \
   --device=/dev/lirc0:/dev/lirc0:rwm \
   -v /opt/lirc:/etc/lirc \
   -p 8765:8765 \
-  kmlucy/docker-lirc
+  ghcr.io/kmlucy/docker-lirc
 ```
 
 Based on [LIRC](http://www.lirc.org/)
